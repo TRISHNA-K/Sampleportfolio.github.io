@@ -1,0 +1,144 @@
+<script>
+
+</script>
+<div class="about-me">
+    <div class="image-section">
+        <div class="rectangle-div">
+        <div class="profile-picture">
+            <img src="profile-pic.png" class="profile-picture" alt="profile-picture">
+  
+        </div>
+        <div class="container">
+        <div class="introduction">
+            <div class="heading">
+                HELLO.I'M <br> TRISHNA
+            </div>
+            <div class="paragraph">
+                I am currently serving as a Software Engineering Intern at Open Financial Technologies, Bangalore.
+            </div>
+            <div class="social-media-icons">
+                <img src="facebook-icon.png" alt="social-media-icons">
+                <img src="twitter-icon.png" alt="social-media-icons">
+                <img src="linkedin-icon.png" alt="social-media-icons">
+            </div>
+        </div>
+    </div>
+</div>
+  
+    </div>
+    <div class="content-section">
+  <div class="main-heading">
+    About-Me
+  </div>
+  <div class="main-paragraph">
+    Hello, I'm Trishna K, currently a second-year student at Vellore Institute of Technology. I am passionate about design and web development. My ultimate aim is to become a proficient full-stack machine learning engineer. I am committed to continuous learning and dedicated to developing the skills necessary to excel in this dynamic field..
+  
+    During my journey, I've had the opportunity to explore artificial intelligence and machine
+    learning, driven by my love for solving complex problems. My internships at Open Financial
+    Technologies in Bangalore and Codsoft have significantly enhanced my coding abilities and
+    exposed me to diverse challenges.
+  
+    At VIT AP, I played a pivotal role as a key member of the Design Team within the Innovators
+    Quest Club, where I actively contributed to innovative projects.
+  
+    I am eager to continue learning and growing in the field of web development, with a strong
+    commitment to creating engaging digital experiences. Let's collaborate and explore new horizons
+    together!
+  </div>
+  <button class="contact-button">
+    CONTACT ME
+  </button>
+    </div>
+  </div>
+  <style>
+  
+  .about-me{
+    display: flex;
+
+}
+.introduction{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top:280px;
+    
+}
+.image-section{
+    flex:1;
+    position: relative;
+
+}
+.heading{
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.paragraph{
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: darkblue;
+  width:90%;
+  align-items: center;
+text-align: center;
+padding-top: 20px;
+}
+.social-media-icons{
+    padding-top:20px;
+}
+
+
+.rectangle-div{
+    background-color: rgb(152, 154, 192);
+    height:600px;
+    width:600px;
+    position: absolute;
+    z-index:0;
+    margin-left:100px;
+
+
+}
+.profile-picture{
+    position:absolute;
+  padding-left:25%;
+  padding-top:20px;
+}
+.content-section{
+    flex:1;
+    margin-left:300px;
+    margin-right: 80px;
+}
+.main-heading{
+    padding-top:80px;
+    font-size: 30px;
+    align-items:center;
+    justify-content: center;
+    color:maroon;
+
+}
+.main-paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  padding-top:30px;
+  font-size: 18px;
+  color:darkblue;
+ 
+}
+.contact-button{
+    margin-top:40px;
+    color:red;
+    background-color: rgb(247, 203, 203);
+    border-radius: 40px;
+    padding:20px 20px 20px 20px;
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+  </style>
+  
